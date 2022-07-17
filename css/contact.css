@@ -1,0 +1,12 @@
+.contact-content {
+    margin-top: 32px;
+    padding: 9px;
+    position: relative;
+    background-image: url('/img/contact-us.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-form {
+    height: 100vh;
+}

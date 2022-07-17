@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    height: 74px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font2);
+    /* margin-top: 15px; */
+}
+
+.sb {
+    margin: 0 20px;
+    font-size: 30px;
+}
+
+.navleft {
+    font-size: 20px;
+    display: flex;
+}
+
+.navleft a {
+    text-decoration: none;
+    color: black;
+}
+
+.navleft ul {
+    display: flex;
+    align-items: center;
+    margin: 0 12px;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.navleft ul li {
+    margin: 0 15px;
+    list-style: none;
+    font-family: var(--font1);
+    align-items: center;
+}
+
+.navleft ul li:hover {
+    transform: scale(1..05, 1.05);
+}
+
+.navleft ul li a:hover {
+    color: rgb(53, 53, 53);
+    font-weight: bolder;
+}
+
+.navleft ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.content {
+    margin-top: 15px;
+    height: 100%;
+    /* background-color: rgb(243, 255, 252); */
+    display: flex;
+    padding: 0px;
+    background-image: url('/img/check2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 15px;
+}
+
+.cont-left h1 {
+    margin-left: 0px;
+}
+
+.cont-left {
+    font-family: var(--font1);
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    flex-direction: column;
+    padding: 75px;
+}
+
+.home-articles {
+    padding-top: 12px;
+    position: relative;
+}
+
+.year-box {
+    position: absolute;
+    /* background-color: red; */
+    /* display: flex; */
+    height: 75px;
+    width: 74px;
+    right: 102px;
+    top: 83px;
+    font-size: 16px;
+}
+
+/* .year-box div {
+    margin: 6px 0;
+} */
+
+.home-art {
+    display: flex;
+    margin: 10px;
+}
+
+.home-art-img img {
+    width: 250px;
+}
+
+.home-art-img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.home-art-content {
+    align-self: center;
+    font-size: 14px;
+    padding: 35px;
+    /* text-decoration: none; */
+}
+
+.home-art-content a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer {
+    height: 45px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-family: var(--font2);
+}
